@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="SuiteTwoCaseOneTest"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
+        <methods>
+          <include name="SuiteOneCaseOneTest"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="SuiteTwoCaseTwoTest"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.SuiteOne.SuiteOneCaseTwo">
+        <methods>
+          <include name="SuiteOneCaseTwoTest"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseTwo -->
+      <class name="com.stta.SuiteOne.SuiteOneBase">
+        <methods>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteOne.SuiteOneBase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

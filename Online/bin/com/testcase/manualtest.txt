@@ -1,0 +1,8 @@
+Verify URL
+Verify Title
+Verify objects are displayed
+verify caption on button
+verify default text in text field
+verify linktext
+verify copyright info
+http://selenium.googlecode.com/git/docs/api/java/index.html

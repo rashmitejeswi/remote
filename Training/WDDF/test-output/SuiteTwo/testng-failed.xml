@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTwo]">
+  <test name="SuiteTwoCaseOne(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="checkSuiteToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="SuiteTwoCaseOneTest"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+    </classes>
+  </test> <!-- SuiteTwoCaseOne(failed) -->
+  <test name="SuiteTwoCaseTwo(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="SuiteTwoCaseTwoTest"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+    </classes>
+  </test> <!-- SuiteTwoCaseTwo(failed) -->
+</suite> <!-- Failed suite [SuiteTwo] -->
