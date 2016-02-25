@@ -28,7 +28,7 @@ public class SuiteOneBase extends SuiteBase{
 		//Bellow given syntax will Insert log In applog.log file.
 		Add_Log.info("Execution started for SuiteOneBase.");
 		
-		//If SuiteToRun !== "y" then SuiteOne will be skipped from execution.
+		//If SuiteToRun !== "y" then SuiteOne will be skipped from execution. please check
 		
 		
 		if(!SuiteUtility.checkToRunUtility(FilePath, SheetName,ToRunColumnName,SuiteName)){			
