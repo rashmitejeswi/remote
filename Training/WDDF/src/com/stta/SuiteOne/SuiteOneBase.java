@@ -25,7 +25,6 @@ public class SuiteOneBase extends SuiteBase{
 		SuiteName = "SuiteOne";
 		ToRunColumnName = "SuiteToRun";
 		
-		
 		//Bellow given syntax will Insert log In applog.log file.
 		Add_Log.info("Execution started for SuiteOneBase.");
 		
